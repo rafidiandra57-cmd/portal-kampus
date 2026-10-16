@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SIAKAD Cakrawala | Portal Akademik Universitas Cakrawala Nusantara</title>
-  <meta name="description" content="Portal Kampus Terpadu Universitas Cakrawala Nusantara (UCN) untuk latihan dan simulasi akademik mahasiswa, penilaian dosen, dan manajemen akun admin.">
-  <meta name="keywords" content="portal kampus, siakad, universitas cakrawala nusantara, latihan akademik, tugas kuliah, forum diskusi, nilai mahasiswa">
+  <meta name="description"
+    content="Portal Kampus Terpadu Universitas Cakrawala Nusantara (UCN) untuk latihan dan simulasi akademik mahasiswa, penilaian dosen, dan manajemen akun admin.">
+  <meta name="keywords"
+    content="portal kampus, siakad, universitas cakrawala nusantara, latihan akademik, tugas kuliah, forum diskusi, nilai mahasiswa">
   <meta name="author" content="Universitas Cakrawala Nusantara">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
 </head>
+
 <body>
 
   <!-- Background Ambient Lights -->
@@ -27,23 +32,31 @@
       <div class="login-brand-header">
         <div class="login-logo">UCN</div>
         <h1 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 0.25rem;">SIAKAD Cakrawala</h1>
-        <p style="font-size: 0.85rem; color: var(--text-muted);">Portal Akademik Terpadu Universitas Cakrawala Nusantara</p>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Portal Akademik Terpadu Universitas Cakrawala Nusantara
+        </p>
       </div>
 
       <form id="login-form">
         <div class="form-group">
           <label class="form-label" for="login-username">NIM / NIP / Username / Email</label>
-          <input type="text" id="login-username" class="form-control" placeholder="Contoh: dimas.arya@mhs.cakrawala.ac.id" required autocomplete="username">
+          <input type="text" id="login-username" class="form-control"
+            placeholder="Contoh: dimas.arya@mhs.cakrawala.ac.id" required autocomplete="username">
         </div>
 
         <div class="form-group">
           <label class="form-label" for="login-password">Kata Sandi</label>
-          <input type="password" id="login-password" class="form-control" placeholder="Masukkan kata sandi..." required autocomplete="current-password" value="password123">
+          <input type="password" id="login-password" class="form-control" placeholder="Masukkan kata sandi..." required
+            autocomplete="current-password" value="password123">
           <div class="form-help">Kata sandi standar seluruh akun demo: <code>password123</code></div>
         </div>
 
-        <button type="submit" id="btn-login-submit" class="btn btn-primary" style="width: 100%; padding: 0.75rem; margin-top: 0.5rem;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+        <button type="submit" id="btn-login-submit" class="btn btn-primary"
+          style="width: 100%; padding: 0.75rem; margin-top: 0.5rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+            <polyline points="10 17 15 12 10 7" />
+            <line x1="15" y1="12" x2="3" y2="12" />
+          </svg>
           Masuk ke Portal
         </button>
       </form>
@@ -51,7 +64,8 @@
       <!-- Quick Demo Login Presets -->
       <div class="quick-demo-accounts">
         <div style="display: flex; align-items: center; justify-content: space-between;">
-          <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Masuk Cepat Akun Demo (Sintetis)</span>
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Masuk
+            Cepat Akun Demo (Sintetis)</span>
           <span class="badge badge-info">1-Klik</span>
         </div>
         <p style="font-size: 0.75rem; color: var(--text-subtle); margin-top: 0.25rem;">
@@ -63,7 +77,8 @@
           <div class="demo-account-chip" onclick="app.quickLogin('usr-mhs-1')">
             <div>
               <strong style="color: #38bdf8;">Dimas Arya Pratama</strong>
-              <div style="font-size: 0.7rem; color: var(--text-subtle);">Mahasiswa (NIM: 2201010145) &bull; TI Smt 5</div>
+              <div style="font-size: 0.7rem; color: var(--text-subtle);">Mahasiswa (NIM: 2201010145) &bull; TI Smt 5
+              </div>
             </div>
             <button type="button" class="btn btn-secondary btn-sm">Pilih &rarr;</button>
           </div>
@@ -72,7 +87,8 @@
           <div class="demo-account-chip" onclick="app.quickLogin('usr-mhs-4')">
             <div>
               <strong style="color: #38bdf8;">Siti Nurhaliza Azzahra</strong>
-              <div style="font-size: 0.7rem; color: var(--text-subtle);">Mahasiswa (NIM: 2301020088) &bull; SD Smt 3</div>
+              <div style="font-size: 0.7rem; color: var(--text-subtle);">Mahasiswa (NIM: 2301020088) &bull; SD Smt 3
+              </div>
             </div>
             <button type="button" class="btn btn-secondary btn-sm">Pilih &rarr;</button>
           </div>
@@ -81,7 +97,8 @@
           <div class="demo-account-chip" onclick="app.quickLogin('usr-dosen-1')">
             <div>
               <strong style="color: #a78bfa;">Dr. Ir. Budi Hartono, M.Sc.</strong>
-              <div style="font-size: 0.7rem; color: var(--text-subtle);">Dosen (NIP: 197805122003121001) &bull; Kriptografi</div>
+              <div style="font-size: 0.7rem; color: var(--text-subtle);">Dosen (NIP: 197805122003121001) &bull;
+                Kriptografi</div>
             </div>
             <button type="button" class="btn btn-secondary btn-sm">Pilih &rarr;</button>
           </div>
@@ -90,7 +107,8 @@
           <div class="demo-account-chip" onclick="app.quickLogin('usr-dosen-3')">
             <div>
               <strong style="color: #a78bfa;">Agung Wicaksono, M.Kom.</strong>
-              <div style="font-size: 0.7rem; color: var(--text-subtle);">Dosen (NIP: 198909242015041003) &bull; Web Lanjut</div>
+              <div style="font-size: 0.7rem; color: var(--text-subtle);">Dosen (NIP: 198909242015041003) &bull; Web
+                Lanjut</div>
             </div>
             <button type="button" class="btn btn-secondary btn-sm">Pilih &rarr;</button>
           </div>
@@ -99,7 +117,8 @@
           <div class="demo-account-chip" onclick="app.quickLogin('usr-admin-1')">
             <div>
               <strong style="color: #fb7185;">Rendra Mahendra, S.Kom., M.T.</strong>
-              <div style="font-size: 0.7rem; color: var(--text-subtle);">Admin Portal (ADM-9001202) &bull; Kelola Akun</div>
+              <div style="font-size: 0.7rem; color: var(--text-subtle);">Admin Portal (ADM-9001202) &bull; Kelola Akun
+              </div>
             </div>
             <button type="button" class="btn btn-secondary btn-sm">Pilih &rarr;</button>
           </div>
@@ -125,7 +144,10 @@
           </div>
         </div>
         <button type="button" class="btn-icon-only mobile-menu-toggle" id="btn-close-sidebar" aria-label="Tutup Menu">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
         </button>
       </div>
 
@@ -143,26 +165,43 @@
           <ul class="nav-list">
             <li>
               <button class="nav-item-btn active" data-view="view-mhs-dashboard" id="nav-mhs-dash">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="7" height="7" />
+                  <rect x="14" y="3" width="7" height="7" />
+                  <rect x="14" y="14" width="7" height="7" />
+                  <rect x="3" y="14" width="7" height="7" />
+                </svg>
                 <span>Dashboard</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-mhs-grades" id="nav-mhs-grades">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10" />
+                  <line x1="12" y1="20" x2="12" y2="4" />
+                  <line x1="6" y1="20" x2="6" y2="14" />
+                </svg>
                 <span>Kartu Nilai & KHS</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-mhs-assignments" id="nav-mhs-tasks">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10 9 9 9 8 9" />
+                </svg>
                 <span>Tugas Kuliah</span>
                 <span class="nav-item-badge" id="badge-mhs-pending-tasks">0</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-forum" id="nav-mhs-forum">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
                 <span>Forum Diskusi</span>
               </button>
             </li>
@@ -175,26 +214,41 @@
           <ul class="nav-list">
             <li>
               <button class="nav-item-btn" data-view="view-dosen-dashboard" id="nav-dosen-dash">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="7" height="7" />
+                  <rect x="14" y="3" width="7" height="7" />
+                  <rect x="14" y="14" width="7" height="7" />
+                  <rect x="3" y="14" width="7" height="7" />
+                </svg>
                 <span>Beranda Dosen</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-dosen-grading" id="nav-dosen-grading">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                </svg>
                 <span>Penilaian Tugas</span>
                 <span class="nav-item-badge" id="badge-dosen-pending-eval">0</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-dosen-classes" id="nav-dosen-classes">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
                 <span>Kelas & Mahasiswa</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-forum" id="nav-dosen-forum">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
                 <span>Forum Diskusi</span>
               </button>
             </li>
@@ -207,25 +261,39 @@
           <ul class="nav-list">
             <li>
               <button class="nav-item-btn" data-view="view-admin-dashboard" id="nav-admin-dash">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10" />
+                  <line x1="12" y1="20" x2="12" y2="4" />
+                  <line x1="6" y1="20" x2="6" y2="14" />
+                </svg>
                 <span>Statistik Kampus</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-admin-users" id="nav-admin-users">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <line x1="19" y1="8" x2="19" y2="14" />
+                  <line x1="22" y1="11" x2="16" y2="11" />
+                </svg>
                 <span>Kelola Akun Pengguna</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-admin-courses" id="nav-admin-courses">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                </svg>
                 <span>Mata Kuliah & Kurikulum</span>
               </button>
             </li>
             <li>
               <button class="nav-item-btn" data-view="view-forum" id="nav-admin-forum">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
                 <span>Moderasi Forum</span>
               </button>
             </li>
@@ -242,8 +310,13 @@
             <div class="user-identifier" id="sidebar-user-id">NIM/NIP</div>
           </div>
         </div>
-        <button type="button" class="btn btn-secondary btn-sm" id="btn-logout" style="width: 100%; margin-top: 0.35rem;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-logout"
+          style="width: 100%; margin-top: 0.35rem;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+            <polyline points="16 17 21 12 16 7" />
+            <line x1="21" y1="12" x2="9" y2="12" />
+          </svg>
           Keluar (Logout)
         </button>
       </div>
@@ -255,7 +328,11 @@
       <header class="app-header">
         <div class="header-left">
           <button type="button" class="mobile-menu-toggle" id="btn-open-sidebar" aria-label="Buka Menu">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
           </button>
           <div class="page-breadcrumb">
             <span id="breadcrumb-root">Portal UCN</span>
@@ -266,19 +343,33 @@
 
         <div class="header-right">
           <!-- Quick Switch Role / Demo Account Button -->
-          <button type="button" class="btn quick-switch-btn btn-sm" id="btn-quick-switch" title="Ganti Akun Demo / Latihan Cepat">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M17 11l4-4-4-4"/><path d="M21 7H11"/></svg>
+          <button type="button" class="btn quick-switch-btn btn-sm" id="btn-quick-switch"
+            title="Ganti Akun Demo / Latihan Cepat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M17 11l4-4-4-4" />
+              <path d="M21 7H11" />
+            </svg>
             <span class="btn-text">Ganti Peran Latihan</span>
           </button>
 
           <!-- Toggle Theme (Dark / Light) -->
-          <button type="button" class="btn-icon-only" id="btn-toggle-theme" title="Beralih Tema Gelap/Terang" aria-label="Tema">
-            <svg id="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <button type="button" class="btn-icon-only" id="btn-toggle-theme" title="Beralih Tema Gelap/Terang"
+            aria-label="Tema">
+            <svg id="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
           </button>
 
           <!-- Reset Data Button -->
-          <button type="button" class="btn-icon-only" id="btn-reset-data" title="Reset Data ke Kondisi Awal Sintetis" aria-label="Reset Data">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+          <button type="button" class="btn-icon-only" id="btn-reset-data" title="Reset Data ke Kondisi Awal Sintetis"
+            aria-label="Reset Data">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="1 4 1 10 7 10" />
+              <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+            </svg>
           </button>
         </div>
       </header>
@@ -293,11 +384,15 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1 id="mhs-greeting-text">Selamat Datang, Mahasiswa</h1>
-              <div class="view-subtitle" id="mhs-sub-greeting">Semester Ganjil 2026/2027 &bull; Fakultas Ilmu Komputer</div>
+              <div class="view-subtitle" id="mhs-sub-greeting">Semester Ganjil 2026/2027 &bull; Fakultas Ilmu Komputer
+              </div>
             </div>
             <div style="display: flex; gap: 0.5rem;">
               <button type="button" class="btn btn-secondary btn-sm" onclick="app.switchView('view-mhs-assignments')">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                </svg>
                 Unggah Tugas Kuliah
               </button>
             </div>
@@ -308,7 +403,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-primary);">
               <div class="stat-header">
                 <span class="stat-label">Indeks Prestasi Kumulatif</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="mhs-stat-gpa">3.82</div>
               <div class="stat-meta" style="color: #34d399;">Skala 4.00 &bull; Predikat Sangat Memuaskan</div>
@@ -317,7 +416,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-accent);">
               <div class="stat-header">
                 <span class="stat-label">Total SKS Diambil</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="mhs-stat-credits">96 SKS</div>
               <div class="stat-meta">Beban Semester Ini: 13 SKS Aktif</div>
@@ -326,7 +429,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-success);">
               <div class="stat-header">
                 <span class="stat-label">Mata Kuliah Aktif</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 14 14" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="mhs-stat-courses">4 Kelas</div>
               <div class="stat-meta" id="mhs-stat-advisor">Dosen PA: Dr. Ir. Budi Hartono</div>
@@ -335,7 +442,12 @@
             <div class="stat-card" style="--accent-gradient: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);">
               <div class="stat-header">
                 <span class="stat-label">Tugas Mendekati Batas</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="12" y1="8" x2="12" y2="12" />
+                    <line x1="12" y1="16" x2="12.01" y2="16" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="mhs-stat-urgent-tasks">1 Tugas</div>
               <div class="stat-meta" style="color: #fbbf24;">Harap selesaikan sebelum batas waktu</div>
@@ -347,10 +459,13 @@
             <div class="card">
               <div class="card-header">
                 <h2 class="card-title">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+                  </svg>
                   Mata Kuliah Semester Berjalan
                 </h2>
-                <button type="button" class="btn btn-secondary btn-sm" onclick="app.switchView('view-mhs-grades')">Lihat KHS & Nilai &rarr;</button>
+                <button type="button" class="btn btn-secondary btn-sm" onclick="app.switchView('view-mhs-grades')">Lihat
+                  KHS & Nilai &rarr;</button>
               </div>
               <div id="mhs-dashboard-courses-list"></div>
             </div>
@@ -359,7 +474,10 @@
             <div class="card">
               <div class="card-header">
                 <h2 class="card-title">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                    <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                  </svg>
                   Pengumuman Akademik
                 </h2>
               </div>
@@ -376,19 +494,26 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1>Kartu Hasil Studi & Transkrip Nilai</h1>
-              <div class="view-subtitle">Rekapitulasi pencapaian nilai akademik mahasiswa secara transparan dan terverifikasi</div>
+              <div class="view-subtitle">Rekapitulasi pencapaian nilai akademik mahasiswa secara transparan dan
+                terverifikasi</div>
             </div>
             <div style="display: flex; gap: 0.5rem;">
               <button type="button" class="btn btn-secondary btn-sm" onclick="window.print()">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 6 2 18 2 18 9" />
+                  <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+                  <rect x="6" y="14" width="12" height="8" />
+                </svg>
                 Cetak KHS
               </button>
             </div>
           </div>
 
           <!-- Academic Summary Header Card -->
-          <div class="card" style="background: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%); border-left: 4px solid var(--primary);">
-            <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; align-items: center;">
+          <div class="card"
+            style="background: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%); border-left: 4px solid var(--primary);">
+            <div
+              style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; align-items: center;">
               <div>
                 <h3 id="khs-student-name" style="font-size: 1.3rem; font-weight: 800;">Nama Mahasiswa</h3>
                 <p id="khs-student-meta" style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.2rem;">
@@ -397,11 +522,15 @@
               </div>
               <div style="display: flex; gap: 2rem;">
                 <div style="text-align: right;">
-                  <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-subtle); font-weight: 700;">Indeks Prestasi (IPS)</div>
+                  <div
+                    style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-subtle); font-weight: 700;">
+                    Indeks Prestasi (IPS)</div>
                   <div id="khs-ips-val" style="font-size: 1.8rem; font-weight: 800; color: #38bdf8;">3.85</div>
                 </div>
                 <div style="text-align: right;">
-                  <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-subtle); font-weight: 700;">Indeks Prestasi (IPK)</div>
+                  <div
+                    style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-subtle); font-weight: 700;">
+                    Indeks Prestasi (IPK)</div>
                   <div id="khs-ipk-val" style="font-size: 1.8rem; font-weight: 800; color: #34d399;">3.82</div>
                 </div>
               </div>
@@ -436,7 +565,8 @@
               </table>
             </div>
 
-            <div style="margin-top: 1.25rem; font-size: 0.78rem; color: var(--text-subtle); display: flex; justify-content: space-between; align-items: center;">
+            <div
+              style="margin-top: 1.25rem; font-size: 0.78rem; color: var(--text-subtle); display: flex; justify-content: space-between; align-items: center;">
               <span>* Nilai akhir dihitung otomatis berdasarkan bobot Tugas (30%), UTS (30%), dan UAS (40%).</span>
               <span id="khs-update-time">Diperbarui: Hari ini</span>
             </div>
@@ -451,16 +581,22 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1>Tugas & Praktikum Kuliah</h1>
-              <div class="view-subtitle">Unggah berkas tugas mandiri/kelompok dan pantau hasil koreksi dari dosen pengampu</div>
+              <div class="view-subtitle">Unggah berkas tugas mandiri/kelompok dan pantau hasil koreksi dari dosen
+                pengampu</div>
             </div>
           </div>
 
           <!-- Assignment Filter Bar -->
-          <div style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;" id="filter-assignment-status">
-            <button class="btn btn-secondary btn-sm active" data-filter="all">Semua Tugas (<span id="count-all-tasks">0</span>)</button>
-            <button class="btn btn-secondary btn-sm" data-filter="pending">Belum Diunggah (<span id="count-pending-tasks">0</span>)</button>
-            <button class="btn btn-secondary btn-sm" data-filter="submitted">Menunggu Nilai (<span id="count-waiting-tasks">0</span>)</button>
-            <button class="btn btn-secondary btn-sm" data-filter="graded">Sudah Dinilai (<span id="count-graded-tasks">0</span>)</button>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;"
+            id="filter-assignment-status">
+            <button class="btn btn-secondary btn-sm active" data-filter="all">Semua Tugas (<span
+                id="count-all-tasks">0</span>)</button>
+            <button class="btn btn-secondary btn-sm" data-filter="pending">Belum Diunggah (<span
+                id="count-pending-tasks">0</span>)</button>
+            <button class="btn btn-secondary btn-sm" data-filter="submitted">Menunggu Nilai (<span
+                id="count-waiting-tasks">0</span>)</button>
+            <button class="btn btn-secondary btn-sm" data-filter="graded">Sudah Dinilai (<span
+                id="count-graded-tasks">0</span>)</button>
           </div>
 
           <!-- Assignment Cards Container -->
@@ -480,7 +616,10 @@
               <div class="view-subtitle" id="dosen-sub-greeting">Portal Evaluasi Akademik & Penilaian Mata Kuliah</div>
             </div>
             <button type="button" class="btn btn-primary btn-sm" onclick="app.switchView('view-dosen-grading')">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+              </svg>
               Mulai Koreksi Tugas
             </button>
           </div>
@@ -490,7 +629,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-primary);">
               <div class="stat-header">
                 <span class="stat-label">Mata Kuliah Diampu</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="dosen-stat-courses">2 MK</div>
               <div class="stat-meta">Kelas Semester Ganjil 2026/2027</div>
@@ -499,7 +642,12 @@
             <div class="stat-card" style="--accent-gradient: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);">
               <div class="stat-header">
                 <span class="stat-label">Tugas Perlu Dinilai</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="12" y1="8" x2="12" y2="12" />
+                    <line x1="12" y1="16" x2="12.01" y2="16" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="dosen-stat-pending">0</div>
               <div class="stat-meta" style="color: #fbbf24;">Submisi baru dari mahasiswa</div>
@@ -508,7 +656,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-success);">
               <div class="stat-header">
                 <span class="stat-label">Tugas Telah Dinilai</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="dosen-stat-graded">0</div>
               <div class="stat-meta" style="color: #34d399;">Nilai masuk ke transkrip</div>
@@ -517,7 +669,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-accent);">
               <div class="stat-header">
                 <span class="stat-label">Total Mahasiswa Terdaftar</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="dosen-stat-students">0 Mahasiswa</div>
               <div class="stat-meta">Lintas kelas paralel</div>
@@ -528,10 +684,14 @@
           <div class="card">
             <div class="card-header">
               <h2 class="card-title">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                </svg>
                 Submisi Tugas Terbaru dari Mahasiswa
               </h2>
-              <button type="button" class="btn btn-secondary btn-sm" onclick="app.switchView('view-dosen-grading')">Buka Halaman Penilaian Penuh &rarr;</button>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="app.switchView('view-dosen-grading')">Buka
+                Halaman Penilaian Penuh &rarr;</button>
             </div>
             <div class="table-responsive">
               <table class="data-table">
@@ -561,10 +721,12 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1>Modul Penilaian & Evaluasi Tugas</h1>
-              <div class="view-subtitle">Periksa submisi tugas mahasiswa, berikan skor angka (0-100), huruf mutu, dan catatan umpan balik (feedback)</div>
+              <div class="view-subtitle">Periksa submisi tugas mahasiswa, berikan skor angka (0-100), huruf mutu, dan
+                catatan umpan balik (feedback)</div>
             </div>
             <div style="display: flex; gap: 0.75rem; align-items: center;">
-              <label for="filter-dosen-course" style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Pilih Mata Kuliah:</label>
+              <label for="filter-dosen-course"
+                style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Pilih Mata Kuliah:</label>
               <select id="filter-dosen-course" class="form-select" style="width: auto; min-width: 240px;">
                 <!-- Populated dynamically -->
               </select>
@@ -611,7 +773,8 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1>Daftar Kelas & Rekap Mahasiswa</h1>
-              <div class="view-subtitle">Daftar kelas yang diampu beserta rekapitulasi nilai akhir peserta perkuliahan</div>
+              <div class="view-subtitle">Daftar kelas yang diampu beserta rekapitulasi nilai akhir peserta perkuliahan
+              </div>
             </div>
           </div>
           <div id="dosen-classes-container">
@@ -627,10 +790,14 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1>Pusat Kontrol Administrator</h1>
-              <div class="view-subtitle">Ringkasan infrastruktur akun, pengguna aktif, dan status data akademik kampus</div>
+              <div class="view-subtitle">Ringkasan infrastruktur akun, pengguna aktif, dan status data akademik kampus
+              </div>
             </div>
             <button type="button" class="btn btn-primary btn-sm" onclick="app.openAddUserModal()">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+              </svg>
               Tambah Pengguna Baru
             </button>
           </div>
@@ -640,7 +807,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-primary);">
               <div class="stat-header">
                 <span class="stat-label">Total Akun Mahasiswa</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="admin-stat-mhs-count">0</div>
               <div class="stat-meta" style="color: #38bdf8;">Status: Aktif Belajar</div>
@@ -649,7 +820,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-accent);">
               <div class="stat-header">
                 <span class="stat-label">Total Akun Dosen</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="admin-stat-dosen-count">0</div>
               <div class="stat-meta" style="color: #a78bfa;">Status: Terverifikasi NIP</div>
@@ -658,7 +833,11 @@
             <div class="stat-card" style="--accent-gradient: var(--gradient-success);">
               <div class="stat-header">
                 <span class="stat-label">Mata Kuliah Terdaftar</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="admin-stat-courses-count">0</div>
               <div class="stat-meta">Kurikulum Merdeka 2026</div>
@@ -667,7 +846,12 @@
             <div class="stat-card" style="--accent-gradient: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);">
               <div class="stat-header">
                 <span class="stat-label">Submisi Berkas Tugas</span>
-                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+                <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg></div>
               </div>
               <div class="stat-value" id="admin-stat-submissions-count">0 Berkas</div>
               <div class="stat-meta" style="color: #34d399;">Penyimpanan Terenkripsi</div>
@@ -678,10 +862,14 @@
           <div class="card">
             <div class="card-header">
               <h2 class="card-title">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                </svg>
                 Daftar Akun Pengguna Terakhir
               </h2>
-              <button type="button" class="btn btn-secondary btn-sm" onclick="app.switchView('view-admin-users')">Kelola Seluruh Akun &rarr;</button>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="app.switchView('view-admin-users')">Kelola
+                Seluruh Akun &rarr;</button>
             </div>
             <div class="table-responsive">
               <table class="data-table">
@@ -711,15 +899,23 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1>Manajemen & Tata Kelola Akun</h1>
-              <div class="view-subtitle">Tambah akun baru, perbarui data mahasiswa/dosen, reset kata sandi, dan hapus akun (*Semua data unik & sintetis)</div>
+              <div class="view-subtitle">Tambah akun baru, perbarui data mahasiswa/dosen, reset kata sandi, dan hapus
+                akun (*Semua data unik & sintetis)</div>
             </div>
             <div style="display: flex; gap: 0.5rem;">
               <button type="button" class="btn btn-secondary btn-sm" onclick="app.exportUsersJSON()">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
                 Ekspor JSON
               </button>
               <button type="button" class="btn btn-primary btn-sm" onclick="app.openAddUserModal()">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
                 Tambah Akun Baru
               </button>
             </div>
@@ -727,9 +923,11 @@
 
           <!-- Search & Filter Controls -->
           <div class="card" style="padding: 1.25rem;">
-            <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+            <div
+              style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: space-between;">
               <div style="display: flex; gap: 0.75rem; flex: 1; min-width: 280px;">
-                <input type="text" id="admin-user-search" class="form-control" placeholder="Cari nama, NIM, NIP, atau email...">
+                <input type="text" id="admin-user-search" class="form-control"
+                  placeholder="Cari nama, NIM, NIP, atau email...">
                 <select id="admin-role-filter" class="form-select" style="width: auto; min-width: 160px;">
                   <option value="all">Semua Peran</option>
                   <option value="mahasiswa">Mahasiswa</option>
@@ -774,10 +972,12 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1>Kurikulum & Daftar Mata Kuliah</h1>
-              <div class="view-subtitle">Kelola mata kuliah, alokasi dosen pengampu, bobot SKS, dan jadwal perkuliahan</div>
+              <div class="view-subtitle">Kelola mata kuliah, alokasi dosen pengampu, bobot SKS, dan jadwal perkuliahan
+              </div>
             </div>
           </div>
-          <div id="admin-courses-grid" class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
+          <div id="admin-courses-grid" class="stats-grid"
+            style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
             <!-- Populated dynamically -->
           </div>
         </section>
@@ -790,10 +990,15 @@
           <div class="view-header">
             <div class="view-title-group">
               <h1>Forum Diskusi Akademik Kampus</h1>
-              <div class="view-subtitle">Ruang tanya jawab, kolaborasi materi kuliah antara mahasiswa dan dosen pengampu</div>
+              <div class="view-subtitle">Ruang tanya jawab, kolaborasi materi kuliah antara mahasiswa dan dosen pengampu
+              </div>
             </div>
             <button type="button" class="btn btn-primary btn-sm" onclick="app.openNewThreadModal()">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="16" />
+                <line x1="8" y1="12" x2="16" y2="12" />
+              </svg>
               Buat Topik Baru
             </button>
           </div>
@@ -826,16 +1031,21 @@
     <div class="modal-box">
       <div class="modal-header">
         <h3 id="modal-submit-title">Unggah Berkas Tugas</h3>
-        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-submit-task')" aria-label="Tutup">&times;</button>
+        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-submit-task')"
+          aria-label="Tutup">&times;</button>
       </div>
       <form id="form-submit-task">
         <div class="modal-body">
           <input type="hidden" id="submit-assignment-id">
-          
-          <div style="background: rgba(148, 163, 184, 0.08); padding: 1rem; border-radius: var(--radius-md); margin-bottom: 1.25rem;">
-            <div id="modal-submit-course-name" style="font-size: 0.8rem; font-weight: 700; color: var(--primary);">Mata Kuliah</div>
-            <div id="modal-submit-task-name" style="font-size: 1rem; font-weight: 700; margin-top: 0.2rem;">Judul Tugas</div>
-            <div id="modal-submit-deadline" style="font-size: 0.78rem; color: #fbbf24; margin-top: 0.3rem;">Batas Pengumpulan: -</div>
+
+          <div
+            style="background: rgba(148, 163, 184, 0.08); padding: 1rem; border-radius: var(--radius-md); margin-bottom: 1.25rem;">
+            <div id="modal-submit-course-name" style="font-size: 0.8rem; font-weight: 700; color: var(--primary);">Mata
+              Kuliah</div>
+            <div id="modal-submit-task-name" style="font-size: 1rem; font-weight: 700; margin-top: 0.2rem;">Judul Tugas
+            </div>
+            <div id="modal-submit-deadline" style="font-size: 0.78rem; color: #fbbf24; margin-top: 0.3rem;">Batas
+              Pengumpulan: -</div>
           </div>
 
           <div class="form-group">
@@ -850,13 +1060,20 @@
 
           <div class="form-group">
             <label class="form-label" for="submit-student-notes">Catatan Mahasiswa untuk Dosen Pengampu</label>
-            <textarea id="submit-student-notes" class="form-control" rows="3" placeholder="Tuliskan keterangan pengumpulan, link repository bila ada, atau catatan penting lainnya..." required></textarea>
+            <textarea id="submit-student-notes" class="form-control" rows="3"
+              placeholder="Tuliskan keterangan pengumpulan, link repository bila ada, atau catatan penting lainnya..."
+              required></textarea>
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btn-sm" onclick="app.closeModal('modal-submit-task')">Batal</button>
+          <button type="button" class="btn btn-secondary btn-sm"
+            onclick="app.closeModal('modal-submit-task')">Batal</button>
           <button type="submit" class="btn btn-primary btn-sm">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="17 8 12 3 7 8" />
+              <line x1="12" y1="3" x2="12" y2="15" />
+            </svg>
             Kirimkan Tugas
           </button>
         </div>
@@ -870,40 +1087,52 @@
     <div class="modal-box">
       <div class="modal-header">
         <h3>Evaluasi & Penilaian Tugas Mahasiswa</h3>
-        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-grade-submission')" aria-label="Tutup">&times;</button>
+        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-grade-submission')"
+          aria-label="Tutup">&times;</button>
       </div>
       <form id="form-grade-submission">
         <div class="modal-body">
           <input type="hidden" id="grade-submission-id">
-          
-          <div style="background: rgba(148, 163, 184, 0.08); padding: 1.15rem; border-radius: var(--radius-md); margin-bottom: 1.25rem;">
+
+          <div
+            style="background: rgba(148, 163, 184, 0.08); padding: 1.15rem; border-radius: var(--radius-md); margin-bottom: 1.25rem;">
             <div style="display: flex; justify-content: space-between; align-items: flex-start;">
               <div>
                 <strong id="grade-student-name" style="font-size: 1.05rem;">Nama Mahasiswa</strong>
-                <div id="grade-student-id" style="font-size: 0.8rem; color: var(--text-muted); font-family: 'JetBrains Mono';">NIM: -</div>
+                <div id="grade-student-id"
+                  style="font-size: 0.8rem; color: var(--text-muted); font-family: 'JetBrains Mono';">NIM: -</div>
               </div>
               <span class="badge badge-info" id="grade-task-title-badge">Tugas</span>
             </div>
-            
+
             <div style="margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--border-subtle);">
-              <div style="font-size: 0.75rem; color: var(--text-subtle); text-transform: uppercase; font-weight: 700;">Berkas & Catatan Submisi:</div>
+              <div style="font-size: 0.75rem; color: var(--text-subtle); text-transform: uppercase; font-weight: 700;">
+                Berkas & Catatan Submisi:</div>
               <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.35rem;">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                </svg>
                 <span id="grade-file-name" style="font-weight: 600; color: #38bdf8;">FileTugas.pdf</span>
                 <span id="grade-file-size" style="font-size: 0.75rem; color: var(--text-subtle);">(0 MB)</span>
               </div>
-              <p id="grade-student-notes" style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.4rem; font-style: italic; background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 4px;">-</p>
+              <p id="grade-student-notes"
+                style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.4rem; font-style: italic; background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 4px;">
+                -</p>
             </div>
           </div>
 
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
             <div class="form-group">
               <label class="form-label" for="grade-score-input">Skor Angka (0 - 100)</label>
-              <input type="number" id="grade-score-input" class="form-control" min="0" max="100" step="1" placeholder="Misal: 90" required oninput="app.calculateLetterGradePreview()">
+              <input type="number" id="grade-score-input" class="form-control" min="0" max="100" step="1"
+                placeholder="Misal: 90" required oninput="app.calculateLetterGradePreview()">
             </div>
             <div class="form-group">
               <label class="form-label">Konversi Huruf Mutu</label>
-              <div style="height: 42px; display: flex; align-items: center; padding: 0 1rem; background: rgba(15, 23, 42, 0.9); border: 1px solid var(--border-medium); border-radius: var(--radius-md); font-weight: 800; font-size: 1.1rem; color: #34d399;" id="grade-letter-preview">
+              <div
+                style="height: 42px; display: flex; align-items: center; padding: 0 1rem; background: rgba(15, 23, 42, 0.9); border: 1px solid var(--border-medium); border-radius: var(--radius-md); font-weight: 800; font-size: 1.1rem; color: #34d399;"
+                id="grade-letter-preview">
                 -
               </div>
             </div>
@@ -911,13 +1140,18 @@
 
           <div class="form-group">
             <label class="form-label" for="grade-feedback-input">Catatan Evaluasi / Umpan Balik Dosen</label>
-            <textarea id="grade-feedback-input" class="form-control" rows="3" placeholder="Berikan umpan balik konstruktif mengenai kualitas pengerjaan mahasiswa..." required></textarea>
+            <textarea id="grade-feedback-input" class="form-control" rows="3"
+              placeholder="Berikan umpan balik konstruktif mengenai kualitas pengerjaan mahasiswa..."
+              required></textarea>
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btn-sm" onclick="app.closeModal('modal-grade-submission')">Batal</button>
+          <button type="button" class="btn btn-secondary btn-sm"
+            onclick="app.closeModal('modal-grade-submission')">Batal</button>
           <button type="submit" class="btn btn-emerald btn-sm">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
             Simpan Nilai & Publikasikan
           </button>
         </div>
@@ -931,7 +1165,8 @@
     <div class="modal-box">
       <div class="modal-header">
         <h3 id="modal-manage-user-title">Tambah Akun Pengguna Baru</h3>
-        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-manage-user')" aria-label="Tutup">&times;</button>
+        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-manage-user')"
+          aria-label="Tutup">&times;</button>
       </div>
       <form id="form-manage-user">
         <div class="modal-body">
@@ -948,24 +1183,30 @@
             </div>
 
             <div class="form-group">
-              <label class="form-label" for="manage-user-identifier" id="label-user-identifier">NIM (Nomor Induk Mahasiswa)</label>
-              <input type="text" id="manage-user-identifier" class="form-control" placeholder="Contoh: 2201010999" required>
+              <label class="form-label" for="manage-user-identifier" id="label-user-identifier">NIM (Nomor Induk
+                Mahasiswa)</label>
+              <input type="text" id="manage-user-identifier" class="form-control" placeholder="Contoh: 2201010999"
+                required>
             </div>
           </div>
 
           <div class="form-group">
             <label class="form-label" for="manage-user-name">Nama Lengkap & Gelar</label>
-            <input type="text" id="manage-user-name" class="form-control" placeholder="Contoh: Raden Surya Kencana" required>
+            <input type="text" id="manage-user-name" class="form-control" placeholder="Contoh: Raden Surya Kencana"
+              required>
           </div>
 
           <div class="form-group">
             <label class="form-label" for="manage-user-email">Alamat Email Resmi Kampus</label>
-            <input type="email" id="manage-user-email" class="form-control" placeholder="Contoh: raden.surya@mhs.cakrawala.ac.id" required>
+            <input type="email" id="manage-user-email" class="form-control"
+              placeholder="Contoh: raden.surya@mhs.cakrawala.ac.id" required>
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="manage-user-department" id="label-user-department">Program Studi / Unit Kerja</label>
-            <input type="text" id="manage-user-department" class="form-control" placeholder="Contoh: Teknik Informatika" required>
+            <label class="form-label" for="manage-user-department" id="label-user-department">Program Studi / Unit
+              Kerja</label>
+            <input type="text" id="manage-user-department" class="form-control" placeholder="Contoh: Teknik Informatika"
+              required>
           </div>
 
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;" id="user-mhs-specific-fields">
@@ -975,7 +1216,8 @@
             </div>
             <div class="form-group">
               <label class="form-label" for="manage-user-gpa">IPK Awal</label>
-              <input type="number" id="manage-user-gpa" class="form-control" min="0" max="4.00" step="0.01" value="3.50">
+              <input type="number" id="manage-user-gpa" class="form-control" min="0" max="4.00" step="0.01"
+                value="3.50">
             </div>
           </div>
 
@@ -986,9 +1228,12 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btn-sm" onclick="app.closeModal('modal-manage-user')">Batal</button>
+          <button type="button" class="btn btn-secondary btn-sm"
+            onclick="app.closeModal('modal-manage-user')">Batal</button>
           <button type="submit" class="btn btn-primary btn-sm" id="btn-save-user">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
             Simpan Akun
           </button>
         </div>
@@ -1002,7 +1247,8 @@
     <div class="modal-box">
       <div class="modal-header">
         <h3>Mulai Topik Diskusi Baru</h3>
-        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-new-thread')" aria-label="Tutup">&times;</button>
+        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-new-thread')"
+          aria-label="Tutup">&times;</button>
       </div>
       <form id="form-new-thread">
         <div class="modal-body">
@@ -1019,18 +1265,25 @@
 
           <div class="form-group">
             <label class="form-label" for="thread-title-input">Judul Pertanyaan atau Topik</label>
-            <input type="text" id="thread-title-input" class="form-control" placeholder="Misal: Kendala konfigurasi Docker Compose pada tugas 2..." required>
+            <input type="text" id="thread-title-input" class="form-control"
+              placeholder="Misal: Kendala konfigurasi Docker Compose pada tugas 2..." required>
           </div>
 
           <div class="form-group">
             <label class="form-label" for="thread-content-input">Isi Pesan / Penjelasan Detail</label>
-            <textarea id="thread-content-input" class="form-control" rows="5" placeholder="Tuliskan detail pertanyaan, kode yang bermasalah, atau hal yang ingin didiskusikan..." required></textarea>
+            <textarea id="thread-content-input" class="form-control" rows="5"
+              placeholder="Tuliskan detail pertanyaan, kode yang bermasalah, atau hal yang ingin didiskusikan..."
+              required></textarea>
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btn-sm" onclick="app.closeModal('modal-new-thread')">Batal</button>
+          <button type="button" class="btn btn-secondary btn-sm"
+            onclick="app.closeModal('modal-new-thread')">Batal</button>
           <button type="submit" class="btn btn-primary btn-sm">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
             Kirim Topik
           </button>
         </div>
@@ -1044,18 +1297,21 @@
     <div class="modal-box" style="max-width: 520px;">
       <div class="modal-header">
         <h3>Beralih Peran Latihan Cepat</h3>
-        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-quick-switcher')" aria-label="Tutup">&times;</button>
+        <button type="button" class="btn-icon-only" onclick="app.closeModal('modal-quick-switcher')"
+          aria-label="Tutup">&times;</button>
       </div>
       <div class="modal-body">
         <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
-          Pilih salah satu peran sintetis berikut untuk menguji alur kerja (mahasiswa melihat nilai/mengunggah tugas, dosen memberi nilai, atau admin mengelola akun):
+          Pilih salah satu peran sintetis berikut untuk menguji alur kerja (mahasiswa melihat nilai/mengunggah tugas,
+          dosen memberi nilai, atau admin mengelola akun):
         </p>
         <div class="quick-demo-grid" id="quick-switcher-grid">
           <!-- Populated by JS -->
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary btn-sm" onclick="app.closeModal('modal-quick-switcher')">Tutup</button>
+        <button type="button" class="btn btn-secondary btn-sm"
+          onclick="app.closeModal('modal-quick-switcher')">Tutup</button>
       </div>
     </div>
   </div>
@@ -1064,4 +1320,5 @@
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>
 </body>
+
 </html>
